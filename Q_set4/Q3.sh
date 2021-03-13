@@ -15,25 +15,6 @@ done
 echo "Input Array : "
 echo ${arr[*]}
 
-# i=0
-# n=${#arr[@]}-1
-# j=0
-# while [ $i -lt 5 ]
-# do
-#     while [ $j -lt ${5-i-1} ]
-#     do
-#         if [ ${arr[j]} -gt ${arr[$((j+1))]} ] 
-#         then
-#             # swap 
-#             temp=${arr[j]} 
-#             arr[$j]=${arr[$((j+1))]}   
-#             arr[$((j+1))]=$temp 
-#         fi
-#     j=$((j+1))
-#     done
-# i=$((i+1))
-# done
-
 for ((i = 0; i<${#arr[@]}; i++)) 
 do
       
